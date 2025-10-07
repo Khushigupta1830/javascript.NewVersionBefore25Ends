@@ -8,7 +8,7 @@
 
 
  
-
+// ********************************************************************************************************
 
 
 
@@ -35,14 +35,31 @@
    // 1 => true
    // 0 => false 
    // "khushi" =>  true 
- s
-   let someNumber = 33
-   let stringNumber = String(someNumber)
-   console.log(stringNumber);
-   console.log(typeof stringNumber);
+ 
+  //  let someNumber = 33
+  //  let stringNumber = String(someNumber)
+  //  console.log(stringNumber);
+  //  console.log(typeof stringNumber);
    
 //++++++++++++++++++++++++++++++++++++++++++++++++++ operations ++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-let value = 4
-let negvalue= -value 
-console.log(negvalue);
+// let value = 4
+// let negvalue= -value 
+// console.log(negvalue);
+
+// **********************************************************************************************
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(3*3);
+// console.log(3**3);
+// console.log(13/2); // qoutient 
+// console.log(13%2); // reminder 
+
+// ****************************************************************************************************
+str1= "HELLO"
+str2=" KHUSHI"
+str3=str1+str2
+// console.log(str3);
+
+// **************************************************************************************************
