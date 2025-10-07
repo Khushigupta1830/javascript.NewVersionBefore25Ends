@@ -5,7 +5,7 @@ var acountCity="delhi"
 let accountProfit;
 var acountCity="Ranchi"
 
- // preefer not to use var due to issue in block scope and functiona scope 
+ // preefer not to use var due to issue in block scope and functional scope 
 
 
  let accountId = "khushigupta"  //without any return type cis undefined 
