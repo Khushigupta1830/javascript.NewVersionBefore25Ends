@@ -1,5 +1,7 @@
 //  Primitive
 
+const { useImperativeHandle } = require("react");
+
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
 const score = 100
@@ -13,7 +15,7 @@ const id = Symbol('123')
 const anotherId = Symbol('123')
 
 
-console.log(id === anotherId); 
+// console.log(id === anotherId); 
 
 // const bigNumber = 3456543576654356754n
 
@@ -38,9 +40,29 @@ const myFunction = function(){
 // https://262.ecma-international.org/5.1/#sec-11.4.3
 
 // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 
+// stack(primitive ) , heap( non-primitive )
 
 let myYouTubeName = "khushiguptadotcom"
 
-let anothername = myYouTubeName;
+let anothername = myYouTubeName 
+anothername = "chaiandcopy"
+//  console.log(myYouTubeName);
+//  console.log(anothername);
+ 
+let userOne = {
 
- console.log(myYouTubeName);
+    email:"khushigupta18" ,
+    upi: "user@pbl"
+
+}
+
+let userTwo = userOne 
+
+userTwo.email = "khushi@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
