@@ -12,7 +12,8 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+
+console.log(id === anotherId); 
 
 // const bigNumber = 3456543576654356754n
 
@@ -29,7 +30,7 @@ let myObj = {
 }
 
 const myFunction = function(){
-    console.log("Hello world");
+    // console.log("Hello world");
 }
 
 // console.log(typeof anotherId);
@@ -40,6 +41,6 @@ const myFunction = function(){
 
 let myYouTubeName = "khushiguptadotcom"
 
-let anothername = myYouTubeName ;
+let anothername = myYouTubeName;
 
-console.log(myYouTubeName);
+ console.log(myYouTubeName);
