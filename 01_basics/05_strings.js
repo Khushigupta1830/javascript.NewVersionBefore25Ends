@@ -5,3 +5,4 @@ const repocount = 45
 // backtick ... playfolders jahn hm inject krte hai hamare variables 
 console.log(`hello my name is ${name}  and my repo count is ${repocount}`);
 
+//  how to define a string 
