@@ -6,7 +6,7 @@ const repocount = 45
 console.log(`hello my name is ${name}  and my repo count is ${repocount}`);
 
 //  how to define a string  , 
-const gamename = new String('khushi-GP')    
+const gamename = new String('khushi-GP-01-2004-khalari-ranchi')    
 
 // console log mei jaakr ke hm dekh sakte hai that it forms,
 //  [0] 'h'
@@ -49,3 +49,5 @@ console.log(url.replace('%20' , '-'));       // replace the owrld with another w
 
 
 console.log(url.includes('khushi')) ;
+
+console.log(gamename.split('-'));
