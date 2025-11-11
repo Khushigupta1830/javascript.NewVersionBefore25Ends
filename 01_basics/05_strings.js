@@ -48,3 +48,4 @@ const url ="https://khushigupta%202004"
 console.log(url.replace('%20' , '-'));       // replace the owrld with another word 
 
 
+console.log(url.includes('khushi')) ;
