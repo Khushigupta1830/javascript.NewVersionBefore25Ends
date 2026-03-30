@@ -4,6 +4,8 @@ var acountCity = "indore"
 var acountCity="delhi"
 let accountProfit;
 var acountCity="Ranchi"
+// if you write accountId = 123456 , it would say error because its firstly declared constant .
+
 
  // preefer not to use var due to issue in block scope and functional scope 
 
