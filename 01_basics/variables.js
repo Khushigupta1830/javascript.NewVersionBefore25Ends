@@ -11,6 +11,6 @@ var acountCity="Ranchi"
 
 
  let accountId = "khushigupta"  //without any return type cis undefined 
-
+accountEmail= "khushi12@gmail.com" 
  let accountHolder;
 console.table([accountEmail,accountNumber,acountCity,accountProfit])
