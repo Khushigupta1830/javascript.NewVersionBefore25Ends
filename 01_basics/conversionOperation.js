@@ -1,10 +1,15 @@
 // let score = "33"
 // console.log( typeof score)   // number 
+
 // console.log(typeof (score))  // wrote it in method form answer: number
+
 //  let valueInNumber = Number(score) // valuInNumber ko hmne Number put kr diya 
 
 //  console.log(typeof valueInNumber);  // Ab yahn find kr rhe , ki valueInNumber => Number 
+
 //  console.log(valueInNumber); // ab yahn puch rhe hai ki value kya hai that is number => 33 
+
+
 
 
  

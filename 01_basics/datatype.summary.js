@@ -1,4 +1,15 @@
-//  Primitive
+/*
+how data is kept in the memory and how it is accessed 
+THERE BY THE DATA TYPE IS CATEGORISED >>>>PRIMITVE >>>>>NON-PRIMITIVE  */
+                            //       [ CALL BY VALUE ]
+                            //  COPY MEI CHANGES HOTE HAI 
+// Primitive
+// string
+// number
+//boolean
+//null
+//undefined
+//symbol = To make any value unique 
 
 const { useImperativeHandle } = require("react");
 
@@ -27,7 +38,7 @@ const anotherId = Symbol('123')
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
+    name: "hitesh",     // KEY : VALUE PAIR  
     age: 22,
 }
 

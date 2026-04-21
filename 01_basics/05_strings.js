@@ -51,3 +51,4 @@ console.log(url.replace('%20' , '-'));       // replace the owrld with another w
 console.log(url.includes('khushi')) ;
 
 console.log(gamename.split('-'));
+
