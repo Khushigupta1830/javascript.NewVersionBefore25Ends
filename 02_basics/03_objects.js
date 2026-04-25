@@ -45,17 +45,18 @@ const jsuser3= {
  console.log(jsuser3);
  console.log(typeof[mysum]);
 
- // console.log(jsuser3[mysum]);
-//    const jsuser4=  {
+ console.log(jsuser3[mysum]);
+
+  jsuser4=  {
 //  jsuser4.email= "khushi@google.com" ,
 //  Object.freeze(jsuser4) ,
 //  jsuser4.email= "khushi1890@google.com" ,
 //    }
-//  console.log(jsuser4);
+// console.log(jsuser4);
 
 
  
-jsuser2.greeting = function(){
+ jsuser2,greeting : function() {
     console.log("Hello Js user ") ;             //   Hello Js user    
 
 console.log(jsuser.greeting);                   //[Function (anonymous)]
@@ -72,5 +73,6 @@ console.log(jsuser2.greeting());
   
 
 } 
-  console.log(jsuser2.greetingtwo());
   
+ // console.log(jsuser2.greetingtwo());
+}
