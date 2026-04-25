@@ -42,8 +42,8 @@ const jsuser3= {
      //mysum :("key1")
  }
 
-//   console.log(jsuser3);
-//    console.log(typeof[mysum]);
+ console.log(jsuser3);
+ console.log(typeof[mysum]);
 
  // console.log(jsuser3[mysum]);
 //    const jsuser4=  {
