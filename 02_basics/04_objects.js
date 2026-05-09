@@ -59,4 +59,10 @@ console.log(courseInstructor)
     //JSON => // JS object notations 
 
 //}
+ // json mei object he create hota hia 
+{
+"name" = "ramsita"
+"coursename"= "js "
+"price"= "free"
 
+}
