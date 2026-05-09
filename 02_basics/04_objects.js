@@ -28,7 +28,7 @@ const obj1 ={1: "A" , 2:"B"};
 const obj2 ={3: "A" , 4:"B"};
 //const obj3 = Object.assign({} , obj1, obj2);    // object assign is a static method , which copies the enumeral own properties ..
 const obj3 = {...obj1 , ...obj2};
-console.log(obj3);                                  // spread fconcept we use here  /// const obj1 ={"1": "A" , "2":"B"};
+//console.log(obj3);                                  // spread fconcept we use here  /// const obj1 ={"1": "A" , "2":"B"};
 
 const users = [
     {
@@ -40,10 +40,18 @@ const users = [
     }
 ]
 
-    users[1].email
-    console.log(tinderUser);
+   // users[1].email
+  //  console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.entries(tinderUser));
-console.log(tinderUser.hasOwnProperty(`isLoggedIn`));S
+// console.log(Object.keys(tinderUser));
+// console.log(Object.entries(tinderUser));
+// console.log(tinderUser.hasOwnProperty(`isLoggedIn`));S
+const course ={
+    course : "js hindi " ,
+    price :"999" ,
+    courseInstructor :" Khushi gupta" ,
+
+}
+const {courseInstructor}= course
+console.log(courseInstructor)
 
