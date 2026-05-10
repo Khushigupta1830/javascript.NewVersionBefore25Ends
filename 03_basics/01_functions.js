@@ -51,3 +51,9 @@ function calcutateCartPrice1 (val1 , val2 , ...num2){
 console.log(calcutateCartPrice1( 1 , 2, 3,4 ))         // val1 , val2 take the value of first values..
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+const myNewArray = [100 , 200 , 300 , 400 ]
+ function returnSecondValue (getArray){
+    return getArray[1]
+ }
+ console.log(returnSecondValue(myNewArray));
+ 
