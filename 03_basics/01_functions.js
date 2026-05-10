@@ -34,5 +34,20 @@ function loginusername(username ="sam"){
 //console.log(loginusername("Hitesh sir "));
 
 //console.log(loginusername(""));                          // just logged in 
-console.log(loginusername(""));                          // undefined just logged in 
+//console.log(loginusername(""));                          // undefined just logged in 
 //+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+function calcutateCartPrice(...num1 ){           // (...) this is know as REST operator or spread operator , based on there use it is called 
+    return num1
+}
+console.log(calcutateCartPrice(200 , 300 , 400 , 2000  ))        // This will give an array atleast ..
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+function calcutateCartPrice1 (val1 , val2 , ...num2){
+    return num2 
+}
+
+console.log(calcutateCartPrice1( 1 , 2, 3,4 ))         // val1 , val2 take the value of first values..
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
