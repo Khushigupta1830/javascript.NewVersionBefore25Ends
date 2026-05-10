@@ -56,4 +56,4 @@ const myNewArray = [100 , 200 , 300 , 400 ]
     return getArray[1]
  }
  console.log(returnSecondValue(myNewArray));
- 
+ // object data 
