@@ -22,6 +22,16 @@ function addTwoNumber(number1 , number2){
 
 const result = addTwoNumber(24 , 18);
 console.log("Result :" + result);        // it comes out to be undefined..
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+function loginusername(username ="sam"){
+    if(username===undefined){
+        console.log("Please enter a username ") ;
+        return
+      }
+    return `${username} just logged in `
+ }
 
+//console.log(loginusername("Hitesh sir "));
 
-
+//console.log(loginusername(""));                          // just logged in 
+console.log(loginusername(""));                          // undefined just logged in 
