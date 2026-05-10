@@ -12,7 +12,13 @@ SayMyName()
 
 
 function addTwoNumber(number1 , number2){
-    console.log(number1 + number2);
-    
-}
-addTwoNumber(24 , "s")
+    //console.log(number1 + number2);            // console print krne ka mtlb ye nhi ki wo ye value return bhi kr rha hai ,console and result dono alag chiz hai  
+        let result = number1+number2 ;          // output will be Result : 42 
+
+        return result                 // yad rkhna return ke baad kch bhi print nhi hoga ..                         
+} 
+const result = addTwoNumber(24 , 18);
+console.log("Result :" + result);        // it comes out to be undefined..
+
+
+
